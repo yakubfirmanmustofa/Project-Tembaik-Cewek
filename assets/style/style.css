@@ -1,0 +1,135 @@
+/* font family */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #ffb3d5;
+  text-decoration: none;
+}
+
+/* content */
+.box-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  text-align: center;
+  background-color: #ca2957;
+  padding: 20px;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.box-content img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.box-content h2 {
+  color: white;
+  margin: 5px 0;
+}
+
+.box-content h3 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.btn-yn {
+  width: 150px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-yn .mau {
+  background-color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 30px;
+}
+
+.btn-yn .mau a {
+  color: #ca2957;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn-yn .gak {
+  color: white;
+  background-color: #ca2957;
+  border: 2px solid white;
+  padding: 3px 8px;
+  border-radius: 30px;
+}
+
+.box-content p {
+  margin-top: 20px;
+  color: white;
+  font-size: 12px;
+}
+
+/* form */
+.box-form {
+  background-color: #ca2957;
+  border-radius: 20px;
+  padding: 30px;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  max-width: 300px;
+  width: 100%;
+}
+
+.whatsapp-form h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.whatsapp-form textarea {
+  max-height: 200px;
+  height: 100vh;
+}
+
+.datainput {
+  margin-bottom: 15px;
+}
+
+.validate {
+  padding: 5px 1%;
+  width: 97%;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+.whatsapp-form label {
+  display: block;
+  margin-bottom: 3px;
+  color: white;
+  font-weight: 500;
+}
+
+.kirim {
+  text-decoration: none;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: 700;
+  color: #ca2957;
+}
+
+.box-form:target {
+  opacity: 1;
+  visibility: visible;
+}

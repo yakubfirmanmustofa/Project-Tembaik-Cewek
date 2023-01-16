@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- my css -->
+    <link rel="stylesheet" href="/assets/style/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Jawaban</title>
+  </head>
+
+  <body>
+    <div class="box-form">
+      <form class="whatsapp-form">
+        <h3></h3>
+        <div class="datainput">
+          <label class="label-jawab">Beneran di terimakan aku?</label>
+          <input
+            class="validate jawab"
+            id="wa_answer"
+            name="answer"
+            required=""
+            type="text"
+            value=""
+            placeholder="jawab please"
+          />
+        </div>
+        <div class="datainput">
+          <label class="label-pesan">Pesan untuk aku</label>
+          <textarea
+            class="validate pesan"
+            id="wa_message"
+            name="message"
+            required=""
+            type="text"
+            value=""
+            placeholder="kasih pesan dong untuk aku"
+          ></textarea>
+        </div>
+        <a
+          class="send_form kirim"
+          href="javascript:void"
+          type="submit"
+          title="Kirim"
+          >Kirim</a
+        >
+        <div id="text-info"></div>
+      </form>
+    </div>
+    <script src="/assets/js/script.js"></script>
+
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/TextPlugin.min.js"></script>
+
+    <!-- animate -->
+    <script src="/assets/js/animate.js"></script>
+  </body>
+</html>
